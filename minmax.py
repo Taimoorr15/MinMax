@@ -6,8 +6,8 @@ class Min_Max:
             raise ValueError("All elements in arr must be numbers")
         self.arr = arr
     def min_max(self):
-        max_number = 0
-        min_number = 0
+        max_number = self.arr[0]
+        min_number = self.arr[0]
         for i in range(len(self.arr)):
             if (self.arr[i]<min_number):
                 min_number = self.arr[i]
